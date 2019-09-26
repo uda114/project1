@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="40dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    tools:context=".MainActivity"
+    android:background="#f2ffd6">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="175dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:background="@color/mycolor">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@color/mycolor2"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/credit"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:fontFamily=""
+                android:gravity="center"
+                android:linksClickable="true"
+                android:text="Credit or Debit card"
+                android:textColor="@android:color/black"
+                android:textSize="19dp"
+                android:textStyle="normal" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="43dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:src="@mipmap/tomorrow" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:background="@color/mycolor2"
+            android:orientation="horizontal"
+            android:clickable="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp">
+
+            <TextView
+                android:id="@+id/paypal"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:layout_width="0dp"
+                android:layout_height="32dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:fontFamily=""
+                android:gravity="center"
+                android:text="PayPal"
+                android:textStyle="normal"
+                android:textSize="19dp"
+                android:textColor="@android:color/black" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+
+                android:src="@mipmap/paypal_reb" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnAll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Button All" />
+
+    <Button
+        android:id="@+id/btnUp1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Button Update" />
+
+    <Button
+        android:id="@+id/btnUpPay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Button update pay" />
+</LinearLayout>

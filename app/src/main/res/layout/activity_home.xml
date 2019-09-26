@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Home"
+    android:background="#f2ffd6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+    <Button
+        android:id="@+id/buttonPayment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button Payment" />
+
+    <Button
+        android:id="@+id/buttonPayList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button payment List" />
+
+    <Button
+        android:id="@+id/buttonPayUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button Payment Update" />
+
+    <Button
+        android:id="@+id/buttonCardDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button Card Details" />
+
+    <Button
+        android:id="@+id/buttonCardUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button Card Update" />
+
+    <Button
+        android:id="@+id/buttonCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button Card" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
